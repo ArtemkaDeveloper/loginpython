@@ -6,9 +6,12 @@ login = input("login: ")
 password = input("password: ")
 if login == "github" and password == "000":
     print("hi, github")
+    input("Press Enter for exit...")
 elif login == "github1" and password == "111":
     print("hi, github1")
+    input("Press Enter for exit...")
 else:
     print("wrong login or password")
+    input("Press Enter for exit...")
 
 
